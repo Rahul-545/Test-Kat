@@ -17,15 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://quantumerp-dev.thesparxitsolutions.com/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_Quantum/input_Email_login-email'), 'erp.quantum@sparxit.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Quantum/input_Password_login-password'), 'qNJSRXy/6pNbsTINkRdvQA==')
-
-WebUI.click(findTestObject('Object Repository/Page_Quantum/button_Login'))
-
-WebUI.acceptAlert()
-
